@@ -5,7 +5,13 @@ An Ansible playbook installing Jenkins includes Java JDK install and service sta
 - Ansible installed on master server
 - Ansible superuser privileges on target server
 
-### Output example
+## Execution example
+
+```
+ansible-playbook jenkins_install.yaml 
+```
+
+## Output example
 
 A short example of an output
 - in this case installing Jenkins from master server "yamp1" on target server "yamp2"
