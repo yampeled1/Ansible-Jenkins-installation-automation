@@ -22,7 +22,7 @@ A short example of an output
 framework. See become_user. , use become instead. This feature will be removed in version 2.8. 
 Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
 
-PLAY [centos] ***************************************************************************************
+PLAY [jenkins_install] ***************************************************************************************
 
 TASK [Gathering Facts] ******************************************************************************
 ok: [yamp2.mylabserver.com]
